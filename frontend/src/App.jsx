@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path = "/em" element = {<EmployeeCard data = {employess}/>} />
+      <Route path = "/" element = {<EmployeeCard data = {employess}/>} />
 
     </Routes>
     
